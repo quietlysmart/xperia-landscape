@@ -14,6 +14,10 @@ export const PositioningMap = ({ title, xAxis, yAxis, dots, arrow }: Props) => (
     <div className="map-wrapper">
       <div className="y-label y-label-top">{yAxis[1]}</div>
       <div className="y-label y-label-bottom">{yAxis[0]}</div>
+      <div className="x-labels x-labels-top">
+        <span>{xAxis[0]}</span>
+        <span>{xAxis[1]}</span>
+      </div>
       <div className="map-area">
         {/* Quadrant labels */}
         <div className="quadrant-label q-tl">Change + Productised</div>
@@ -53,10 +57,6 @@ export const PositioningMap = ({ title, xAxis, yAxis, dots, arrow }: Props) => (
             <span className="dot-label">{dot.name}</span>
           </div>
         ))}
-      </div>
-      <div className="x-labels">
-        <span>{xAxis[0]}</span>
-        <span>{xAxis[1]}</span>
       </div>
     </div>
   </div>

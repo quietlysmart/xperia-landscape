@@ -564,7 +564,7 @@ button { font-family: inherit; cursor: pointer; }
     position: relative;
     max-width: 640px;
     margin: 0 auto;
-    padding-left: 4rem;
+    padding-left: 2.75rem;
 }
 
 .map-area {
@@ -653,7 +653,7 @@ button { font-family: inherit; cursor: pointer; }
 /* Axis labels */
 .y-label {
     position: absolute;
-    font-size: 0.66rem;
+    font-size: 0.64rem;
     color: var(--secondary);
     font-weight: 700;
     text-transform: uppercase;
@@ -661,7 +661,7 @@ button { font-family: inherit; cursor: pointer; }
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     font-family: var(--font-body);
-    left: -3.5rem;
+    left: -2rem;
 }
 .y-label-top { top: 5%; }
 .y-label-bottom { bottom: 5%; }
@@ -669,13 +669,16 @@ button { font-family: inherit; cursor: pointer; }
 .x-labels {
     display: flex;
     justify-content: space-between;
-    padding: 0.6rem 0 0;
-    font-size: 0.66rem;
+    padding: 0 0 0.6rem;
+    font-size: 0.64rem;
     color: var(--secondary);
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.04em;
     font-family: var(--font-body);
+}
+.x-labels-top {
+    /* Above the graph */
 }
 
 /* --- SWOT --- */
@@ -898,8 +901,8 @@ button { font-family: inherit; cursor: pointer; }
     .stat-callout { flex-direction: row; gap: 0.5rem; align-items: baseline; }
     .stat-number { font-size: 1.75rem; }
 
-    .map-wrapper { padding-left: 2.5rem; }
-    .y-label { left: -2rem; font-size: 0.58rem; }
+    .map-wrapper { padding-left: 2rem; }
+    .y-label { left: -1.5rem; font-size: 0.56rem; }
     .map-area { aspect-ratio: auto; min-height: 360px; }
     .category-filters { gap: 0.35rem; }
     .category-pill { font-size: 0.66rem; padding: 4px 10px; }
