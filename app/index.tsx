@@ -353,7 +353,7 @@ const App = () => {
 
         {/* Appendix */}
         <section id="appendix" className="section-block reveal">
-          <Accordion title="Appendix & Sources" defaultOpen>
+          <Accordion title="Appendix & Sources">
             <div className="prose">
               <h4 style={{ marginBottom: '0.75rem' }}>Xperia</h4>
               <ul className="source-list">

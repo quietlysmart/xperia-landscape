@@ -34,7 +34,7 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; }
-html { color-scheme: light; background-color: #ffffff; scroll-behavior: smooth; }
+html { color-scheme: light; background-color: #ffffff; scroll-behavior: smooth; overflow-x: hidden; }
 
 body {
     background-color: #ffffff;
@@ -564,7 +564,7 @@ button { font-family: inherit; cursor: pointer; }
     position: relative;
     max-width: 640px;
     margin: 0 auto;
-    padding-left: 2.75rem;
+    padding-left: 1.6rem;
 }
 
 .map-area {
@@ -661,7 +661,7 @@ button { font-family: inherit; cursor: pointer; }
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     font-family: var(--font-body);
-    left: -2rem;
+    left: -0.85rem;
 }
 .y-label-top { top: 5%; }
 .y-label-bottom { bottom: 5%; }
@@ -872,7 +872,6 @@ button { font-family: inherit; cursor: pointer; }
 
     .app-shell {
         flex-direction: column;
-        overflow-x: hidden;
     }
 
     .main-content {
@@ -926,8 +925,8 @@ button { font-family: inherit; cursor: pointer; }
     }
     .stat-number { font-size: 1.75rem; }
 
-    .map-wrapper { padding-left: 2rem; max-width: 100%; }
-    .y-label { left: -1.5rem; font-size: 0.56rem; }
+    .map-wrapper { padding-left: 1.4rem; max-width: 100%; }
+    .y-label { left: -0.75rem; font-size: 0.56rem; }
     .map-area { aspect-ratio: auto; min-height: 300px; }
     .category-filters { gap: 0.35rem; }
     .category-pill { font-size: 0.66rem; padding: 4px 10px; }
